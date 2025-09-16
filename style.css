@@ -1,0 +1,177 @@
+/* ========== RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #e6e0e0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ========== HEADER / NAVBAR ========== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #eee;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff9d00;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent; /* default transparan */
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  border-bottom: 2px solid #ff9d00; /* efek hover */
+}
+
+.btn-contact {
+  background: #ff9d00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-contact:hover {
+  background: #e68a00;
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  min-height: 90vh;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hero-text h1 span {
+  color: #ff9d00;
+}
+
+.hero-text h2 {
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.hero-text h2 span {
+  color: #333;
+  font-weight: 600;
+}
+
+.hero-text .desc {
+  margin: 20px 0;
+  color: #666;
+  font-size: 16px;
+  max-width: 500px;
+}
+
+.btn-hire {
+  display: inline-block;
+  background: #ff9d00;
+  padding: 12px 25px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-hire:hover {
+  background: #e68a00;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* ========== SECTIONS ========== */
+section {
+  max-width: 900px;        /* biar kotaknya nggak terlalu lebar */
+  margin: 50px auto;       /* posisi di tengah dengan jarak atas-bawah */
+  padding: 40px;           /* jarak isi dengan pinggir */
+  background: #ffffff;        /* kotak putih */
+  border-radius: 12px;     /* sudut tumpul */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* efek bayangan */
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+section p {
+  font-size: 16px;
+  color: #555;
+}
+
+#portfolio ul {
+  margin-top: 15px;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+#portfolio ul li {
+  margin-bottom: 8px;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f8f8f8;
+  color: #777;
+  font-size: 14px;
+  margin-top: 40px;
+}
